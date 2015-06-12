@@ -16,7 +16,7 @@
         android:id="@+id/spotify"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"
-        android:text="@string/app_spotify_streamer"
+        android:text="@string/app_spotify_btn"
         android:onClick="openSpotifyApp"
         android:layout_gravity="center_vertical" />
 
@@ -24,35 +24,35 @@
         android:id="@+id/scores"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"
-        android:text="@string/app_football"
+        android:text="@string/app_football_btn"
         android:onClick="openScoresApp" />
 
     <Button
         android:id="@+id/library"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"
-        android:text="@string/app_library"
+        android:text="@string/app_library_btn"
         android:onClick="openLibraryApp" />
 
     <Button
         android:id="@+id/bib"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"
-        android:text="@string/app_build_it_bigger"
+        android:text="@string/app_build_it_btn"
         android:onClick="openBibApp" />
 
     <Button
         android:id="@+id/xyz"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"
-        android:text="@string/app_xyz_reader"
+        android:text="@string/app_xyz_reader_btn"
         android:onClick="openXyzApp" />
 
     <Button
         android:id="@+id/capstone"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"
-        android:text="@string/app_capstone"
+        android:text="@string/app_capstone_btn"
         android:onClick="openCapstoneApp"/>
 
 </LinearLayout>
