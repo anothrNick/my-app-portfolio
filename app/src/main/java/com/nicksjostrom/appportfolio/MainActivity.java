@@ -8,6 +8,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+/**
+ * commit
+ */
+
 public class MainActivity extends Activity {
     Context context;
     String[] toastText = {
